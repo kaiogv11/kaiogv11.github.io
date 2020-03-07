@@ -5,6 +5,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -24,7 +29,7 @@ body {
 .logo {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: blue;
     border-radius: 50%;
     display: flex;
     justify-content: flex-end;
