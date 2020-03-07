@@ -60,3 +60,14 @@ main {
     font-size: 26px;
     margin-left: 20px;
 }
+
+.titulo-principal i {
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
