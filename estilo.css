@@ -1,34 +1,35 @@
 
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .cabecalho {
-    background-color: red;display: flex;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .minhas-infos {
-    background-color: blue;
     flex-grow: 2;
     display: flex;
     align-items: center;
 }
 
 .meus-contatos {
-    background-color: red;
     flex-grow: 1;
 }
 
 .logo {
     width: 200px;
     height: 200px;
-    background-color: hotpink;
+    background-color: black;
     border-radius: 50%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    color: white;
 }
 
 .logo p {
@@ -41,5 +42,16 @@ body {
 }
 
 .textos {
+    margin-left: 20px;
+}
+
+.titulo-principal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.titulo-principal h4 {
+    font-size: 26px;
     margin-left: 20px;
 }
