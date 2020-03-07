@@ -8,13 +8,37 @@ body {
     justify-content: space-between;
 }
 
-.minha-infos {
+.minhas-infos {
     background-color: blue;
     flex-grow: 2;
+    display: flex;
+    align-items: center;
 }
 
 .meus-contatos {
-    background-color: yellow;
+    background-color: red;
     flex-grow: 1;
+}
 
+.logo {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.logo p {
+    font-size: 42px;
+    margin-top: 0px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.textos {
+    margin-left: 20px;
 }
