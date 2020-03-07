@@ -14,6 +14,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .minhas-infos {
@@ -72,10 +73,18 @@ main {
     color: white;
 }
 
+.profissional-skill {
+    align-items: flex-start;
+}
+
 .profissional {
-    flex: 2;
+    flex: 3;
 }
 
 .skill {
+    flex: 2;
+}
+
+.coluna-esquerda {
     flex: 1;
 }
