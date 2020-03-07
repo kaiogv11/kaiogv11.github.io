@@ -10,7 +10,7 @@ main {
     margin: 0 auto;
 }
 
-.cabecalho {
+.cabecalho, .profissional-skill {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,4 +70,12 @@ main {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.profissional {
+    flex: 2;
+}
+
+.skill {
+    flex: 1;
 }
